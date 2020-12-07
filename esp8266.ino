@@ -4,7 +4,7 @@
 #include <ArduinoOTA.h>
 #include <ESP8266WebServer.h>
 const char* ssid = "<SSID>";
-const char* password = "Password";
+const char* password = "<Password>";
 ESP8266WebServer server(80);
 const char* www_username = "<Name Access>";
 const char* www_password = "<Password Access>";
